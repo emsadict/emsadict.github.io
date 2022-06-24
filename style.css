@@ -172,6 +172,47 @@ hr.light-100{
 @media (max-width: 576px){
 
 }
+@media (max-width: 480px){
+.carousel-caption{
+		position: absolute;
+		top: 20%;
+		transform: translateY(-50%);
+	}
+.carousel-caption h1 {
+	font-size: 100%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 10px #000;
+}
+.social a{
+		font-size: 4em;
+		padding: 2rem;
+	}
+	.carousel-caption button{
+		size: 10px;
+		margin: 2px;
+	}
+}
+
+@media (max-width: 320px){
+.carousel-caption{
+		position: absolute;
+		top: 10%;
+		transform: translateY(-50%);
+	}
+.carousel-caption h1 {
+	font-size: 100%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 10px #000;
+}
+.social a{
+		font-size: 4em;
+		padding: 2rem;
+	}
+	.carousel-caption button{
+		size: 10px;
+		margin: 2px;
+	}
+}
 
 /*----Firefox Bug Fix ----*/
 .carousel-item {
